@@ -26,4 +26,23 @@ At the moment I work as a manager of a wholesale company. The idea to try myself
   * VScode, GitHub
   
   ***
+  ## Code example:
   
+```
+
+let arr = [1,2,3,4,5,6,7,8,9,10]; 
+for (i = 0; i < 11; i++) {
+    console.log(i);
+    }
+```
+
+***
+
+## Сourses
+
+  * HTML/CSS ( [Head First HTML and CSS](https://www.amazon.com/Head-First-HTML-CSS-Standards-Based/dp/0596159900) )
+  * JavaScript Basics ( [code.mu](https://code.mu/ru/javascript/book/prime/) )
+  * [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
+
+
+***

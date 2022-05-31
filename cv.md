@@ -26,6 +26,7 @@ At the moment I work as a manager of a wholesale company. The idea to try myself
   * VScode, GitHub
   
   ***
+
 ## Code example:
   
 ```

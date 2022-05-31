@@ -26,7 +26,7 @@ At the moment I work as a manager of a wholesale company. The idea to try myself
   * VScode, GitHub
   
   ***
-  ## Code example:
+## Code example:
   
 ```
 
@@ -44,5 +44,16 @@ for (i = 0; i < 11; i++) {
   * JavaScript Basics ( [code.mu](https://code.mu/ru/javascript/book/prime/) )
   * [RS Schools Course «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
 
+
+***
+## Experience:
+[My CV#1](https://alexzaycev.github.io/rsschool-cv/cv)
+
+***
+## Languages:
+
+1. Russian 
+2. Belarussian
+3. English (A2)
 
 ***

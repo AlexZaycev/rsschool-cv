@@ -1,1 +1,12 @@
-{}
+@font-face {
+    font-family: Kanit;
+    src: url("assets/fonts/Kanit.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+}

@@ -7,6 +7,29 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Kanit", sans-serif;
+    background-image: url("assets/img/background.jpg");
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    list-style-type: none;
+    display: inline-block
+    
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.anchor-link:hover {
+    font-size: 18px;
 }

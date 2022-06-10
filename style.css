@@ -3,14 +3,27 @@
     src: url("assets/fonts/Kanit.ttf");
 }
 
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
+
 * {
     box-sizing: border-box;
+    color: white;
 }
 
 
 body {
     font-family: "Kanit", sans-serif;
     background-image: url("assets/img/background.jpg");
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
 }
 
 .nav-list {
@@ -26,10 +39,76 @@ body {
 
 .anchor-link {
     text-decoration: none;
-    color: white;
     transition: all .3s;
 }
 
 .anchor-link:hover {
     font-size: 18px;
+}
+
+.section {
+    border: 1px solid white;
+    width: 40%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    border: 1px solid white;
+}
+
+.avatar-block {
+    display: block;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 20%;
+    margin: auto;
+    
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-block {
+    
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+.h2-contacts {
+    padding-left: 20px;
+}
+
+.phone {
+    list-style: none;
+    list-style-image: url("assets/svg/Phone.png");
+}
+
+.email {
+    list-style: none;
+    list-style-image: url("assets/svg/Email.png");
+}
+
+.discord {
+    list-style: none;
+    list-style-image: url("assets/svg/discord.png");
+}
+
+.telegram {
+    list-style: none;
+    list-style-image: url("assets/svg/tele.png");
+}
+
+.github {
+    list-style: none;
+    list-style-image: url("assets/svg/github.png");
 }

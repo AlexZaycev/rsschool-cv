@@ -46,7 +46,7 @@ body {
     font-size: 18px;
 }
 
-.section {
+.section-left {
     border: 1px solid white;
     width: 40%;
 }
@@ -86,6 +86,7 @@ div {
 
 .h2-contacts {
     padding-left: 20px;
+
 }
 
 .phone {
@@ -111,4 +112,19 @@ div {
 .github {
     list-style: none;
     list-style-image: url("assets/svg/github.png");
+}
+
+.section-right {
+    border: 1px solid white;
+    max-width: 60%;
+}
+
+.about-me {
+    border: 1px solid white;
+    margin: auto;
+}
+
+.skills {
+    border: 1px solid white;
+    margin: auto;
 }

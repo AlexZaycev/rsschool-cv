@@ -1,10 +1,14 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
 @font-face {
     font-family: Kanit;
     src: url("assets/fonts/Kanit.ttf");
 }
 
 @media (max-width: 768px) {
-    .section {
+    .container {
       width: 100%;
     }
   }
@@ -12,17 +16,22 @@
 
 * {
     box-sizing: border-box;
-    color: white;
+    color: rgb(253, 215, 145);
 }
 
 
 body {
     font-family: "Kanit", sans-serif;
     background-image: url("assets/img/background.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container {
     max-width: 1440px;
+    min-width: 770px;
     margin: auto;
 }
 
@@ -44,10 +53,10 @@ body {
 
 .anchor-link:hover {
     font-size: 18px;
+    
 }
 
 .section-left {
-    border: 1px solid white;
     width: 40%;
 }
 
@@ -56,16 +65,14 @@ body {
     flex-wrap: wrap;
 }
 
-div {
-    border: 1px solid white;
-}
+
 
 .avatar-block {
     display: block;
-    width: 160px;
-    height: 160px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
-    border-radius: 20%;
+    border-radius: 30%;
     margin: auto;
     
 }
@@ -86,10 +93,13 @@ div {
 
 .h2-contacts {
     padding-left: 20px;
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
 
 }
 
 .phone {
+    
     list-style: none;
     list-style-image: url("assets/svg/Phone.png");
 }
@@ -115,16 +125,60 @@ div {
 }
 
 .section-right {
-    border: 1px solid white;
     max-width: 60%;
 }
 
+#aboutme {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
 .about-me {
-    border: 1px solid white;
     margin: auto;
+    
+}
+
+#skills {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
 }
 
 .skills {
-    border: 1px solid white;
     margin: auto;
+}
+
+#code {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
+#courses {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+#languages {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.git {
+    height: 100px;
+    object-fit: contain;
+}
+
+.year {
+    margin: auto;
+    text-align: right;
 }

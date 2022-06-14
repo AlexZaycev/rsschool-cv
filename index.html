@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" hrev="assets/svg/favicon.ico">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body class="container">
 
@@ -17,14 +17,13 @@
                 <li class="nav-item"><a href="#aboutme" class="anchor-link">About me</a></li>
                 <li class="nav-item"><a href="#skills" class="anchor-link">Skills</a></li>
                 <li class="nav-item"><a href="#code" class="anchor-link">Code</a></li>
-                <li class="nav-item"><a href="Courses" class="anchor-link">Courses</a></li>
-                <li class="nav-item"><a href="#Languages" class="anchor-link">Languages</a></li>
+                <li class="nav-item"><a href="#courses" class="anchor-link">Courses</a></li>
+                <li class="nav-item"><a href="#Languages" class="anchor-link">Education & Languages</a></li>
             </ul>
 
         </nav>
 
     </header>
-    
     <main class="main">
         <section class="section-left">
             <div class="avatar-block">
@@ -32,8 +31,8 @@
             </div>
             <aside class="pers-inf">
                 <div class="name-block">
-                    <h1 class="name">Alexey Zaycev</h1>
-                    Rsschool student
+                    <h1>Alexey Zaycev <br>
+                     Future Front-end developer</h1>
                 </div>
                 <div class="contact-inf">
                     <h2 class="h2-contacts">Contact information:</h2>
@@ -50,12 +49,12 @@
         </section>
         <section class="section-right">
             <div class="about-me">
-            <h2>About me:</h2>
+            <h2 id="aboutme">About me:</h2>
             <p>My name is Alex. I am 32 yers old. 
                 At the moment I work as a manager of a wholesale company. The idea to try myself as a developer haunted me for a long time. After much debate with myself, I decided to give it a try. I hope everything works out for me.</p>
             </div>
             <div class="skills">
-                <h2>My skills:</h2>
+                <h2 id="skills">My skills:</h2>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -66,26 +65,29 @@
 
             </div>
             <div class="Code">
-                <h2>Code Example:</h2>
+                <h2 id="code">Code Example:</h2>
                 <pre>
                     <code>
                         let arr = [1,2,3,4,5,6,7,8,9,10]; 
-                        for (i = 0; i < 11; i++) {
+                        for (i = 0; i &lt; 11; i++) {
                              console.log(i);
                         }
                     </code>
                 </pre>
             </div>
             <div class="courses">
-                <h2>Courses:</h2>
+                <h2 id="courses">Courses:</h2>
                 <ol>
                     <li><a href="https://www.oreilly.com/library/view/head-first-html/9781449324469/" target="_blank">Head First HTML and CSS</a></li>
                     <li><a href="https://code.mu/ru/javascript/book/prime/" target="_blank">JavaScript Basics</a></li>
-                    <li><a href="https://rs.school/js-stage0" target="_blank">RS Schools Course «JavaScript/Front-end. Stage 0»</a></li>
+                    <li><a href="https://rs.school/js-stage0" target="_blank">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</a></li>
                 </ol>
             </div>
-            <div>
-                <h2>Languages:</h2>
+            <div class="languages">
+                <h2 id="languages">Education & Languages:</h2>
+                <h4>Education:</h4>
+                <p>Minsk branch of the Moscow State University of Economics, Statistics and Informatics (2007 - 2012)</p>
+                <h4>Languages:</h4>
                 <p>Belorussian - native</p>
                 <p>Russian - native</p>
                 <p>English - A2 pre-intermidiate</p>
@@ -94,6 +96,15 @@
     </main>
 
     <footer class="footer">
+        <div class="rss-logo">
+            <a href="https://rs.school/js/" target="_blank"><img class="logo" src="assets/img/rsschool.png" alt="rsschool-logo"></a>
+        </div>
+        <div class="git-logo">
+            <a href="https://github.com/alexzaycev" target="_blank"><img class="git" src="assets/img/github_footer.png" alt="github-logo"></a>
+        </div>
+        <div class="year">
+            <p>Alex Zaycev 2022</p>
+        </div>
 
     </footer>
 </body>

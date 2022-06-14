@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
+@font-face {
+    font-family: Kanit;
+    src: url("assets/fonts/Kanit.ttf");
+}
+
+@media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+
+* {
+    box-sizing: border-box;
+    color: rgb(253, 215, 145);
+}
+
+
+body {
+    font-family: "Kanit", sans-serif;
+    background-image: url("assets/img/background.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 770px;
+    margin: auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    list-style-type: none;
+    display: inline-block
+    
+}
+
+.anchor-link {
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.anchor-link:hover {
+    font-size: 18px;
+    
+}
+
+.section-left {
+    width: 40%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.avatar-block {
+    display: block;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 30%;
+    margin: auto;
+    
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-block {
+    
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+.h2-contacts {
+    padding-left: 20px;
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+
+}
+
+.phone {
+    
+    list-style: none;
+    list-style-image: url("assets/svg/Phone.png");
+}
+
+.email {
+    list-style: none;
+    list-style-image: url("assets/svg/Email.png");
+}
+
+.discord {
+    list-style: none;
+    list-style-image: url("assets/svg/discord.png");
+}
+
+.telegram {
+    list-style: none;
+    list-style-image: url("assets/svg/tele.png");
+}
+
+.github {
+    list-style: none;
+    list-style-image: url("assets/svg/github.png");
+}
+
+.section-right {
+    max-width: 60%;
+}
+
+#aboutme {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
+.about-me {
+    margin: auto;
+    
+}
+
+#skills {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
+.skills {
+    margin: auto;
+}
+
+#code {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
+#courses {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+#languages {
+    background: linear-gradient(to right, gray, black);
+    letter-spacing: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.git {
+    height: 100px;
+    object-fit: contain;
+}
+
+.year {
+    margin: auto;
+    text-align: right;
+}
